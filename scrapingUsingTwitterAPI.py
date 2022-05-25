@@ -14,7 +14,7 @@ import time
 import pandas as pd
 
 # get tweets that include specific words
-client = tweepy.Client(bearer_token= TWITTER_API_config.BEARER_TOKEN, wait_on_rate_limit = True)
+client = tweepy.Client(bearer_token= "TYPE YOUR BEARER_TOKEN", wait_on_rate_limit = True)
 query = 'zoonosis "and" biodiversity "and" loss -is:retweet'
 response = client.search_recent_tweets(query = query, max_results = 10, tweet_fields = 'created_at', expansions = ['author_id'])
 
