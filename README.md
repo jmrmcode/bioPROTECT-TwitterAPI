@@ -1,2 +1,2 @@
-# bioPROTECT-TwitterAPI
-Data scraping code using the Tweepy library for accessing the Twitter API
+# Collect and pre-process tweets using Tweepy
+Python code to use the Tweepy library for accessing the Twitter API
